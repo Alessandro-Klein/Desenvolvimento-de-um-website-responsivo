@@ -1,0 +1,64 @@
+/* Plano de fundo para o corpo */
+body {
+   background-color: #1a1a1a;
+   color: #ffffff;
+   font-family: Arial, sans-serif;
+   background-image: url('../img/01.png');
+   background-size: cover;
+}
+
+/* Container com fundo e padding */
+.container {
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   border-radius: 8px;
+}
+
+/* Imagens e textos lado a lado */
+.personagem-row {
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.personagem-img {
+   max-width: 150px; /* Reduz o tamanho das imagens */
+   margin-right: 20px;
+   border-radius: 8px;
+}
+
+/* Estilo de títulos */
+h2 {
+   color: #f5c518;
+   font-size: 1.5em;
+   margin-bottom: 10px;
+}
+
+p {
+   color: #dddddd;
+}
+
+/* Ajuste no footer */
+footer {
+   background-color: #333;
+   color: #ffffff;
+   padding: 20px 0;
+}
+
+/* Ajuste para alinhar o conteúdo responsivamente */
+@media (max-width: 768px) {
+   .personagem-row {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .personagem-img {
+       margin-bottom: 15px;
+       margin-right: 0;
+   }
+}
+ /* Remover o branco no dropdown-menu ao passar o mouse */
+ .dropdown-menu.bg-dark .dropdown-item:hover {
+   background-color: #333; /* Mantém o fundo escuro */
+   color: #e63946; /* Cor do texto ao passar o mouse */
+}

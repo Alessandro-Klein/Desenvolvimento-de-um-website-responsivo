@@ -1,0 +1,26 @@
+#cabecalho{
+   height: 230px;
+   width: 1000px;
+   background-color: aqua;
+   float: top;
+}
+
+#titulo{
+   height: 50px;
+   width: 1000px;
+   float: left;
+   text-align: center;
+}
+.texto{
+   height: 200px;
+   width: 1000px;
+   float: left;
+   text-align: justify;
+}
+
+.video{
+   height: 350px;
+   width: 500px;
+   background-color: crimson;
+   float: left;
+}

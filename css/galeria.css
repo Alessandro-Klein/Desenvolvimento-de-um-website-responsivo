@@ -1,0 +1,42 @@
+ /* Estilo personalizado para a galeria */
+      body {
+         background-color: #1a1a1a;
+         color: #ffffff;
+         font-family: Arial, sans-serif;
+         background-image: url('../img/01.png');
+         background-size: cover;
+      }
+
+      .gallery-container {
+         padding: 30px;
+         text-align: center;
+      }
+
+      .gallery-item {
+         margin-bottom: 20px;
+         transition: transform 0.3s;
+         border-radius: 8px;
+      }
+
+      .gallery-item:hover {
+         transform: scale(1.05);
+      }
+
+      .gallery-item img {
+         width: 100%;
+         height: auto;
+         border-radius: 8px;
+      }
+
+      h1 {
+         color: #f5c518;
+         margin-bottom: 30px;
+      }
+   
+
+   /* Remover o branco no dropdown-menu ao passar o mouse */
+   .dropdown-menu.bg-dark .dropdown-item:hover {
+      background-color: #333; /* Mantém o fundo escuro */
+      color: #e63946; /* Cor do texto ao passar o mouse */
+   }
+   
